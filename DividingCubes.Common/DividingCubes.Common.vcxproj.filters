@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{a7f37d03-97f7-4a57-9931-f8ab53ec3d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{dbcb44ce-961f-4a4d-805d-e371de6d9891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{b1a4ebf0-a428-4a5f-8713-bbe6a47902b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Configuration.hpp" />
+    <ClInclude Include="Geometry\Vertex.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="glm.hpp" />
+    <ClInclude Include="Geometry\Voxel.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Points.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Mesh.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ImageDataSet.hpp">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.hpp" />
+    <ClInclude Include="Math\PointHelper.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Data\ImageDataSet.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
