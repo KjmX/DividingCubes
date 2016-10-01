@@ -3,4 +3,5 @@ A sequentiel and parallel implementation of the Dividing Cubes algorithm using C
 
 Authors:
 KEDJOUR Mohamed Tahar
+
 LOUNIS Anis
