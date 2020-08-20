@@ -5,32 +5,31 @@
 
 # Dividing Cubes with <span style="color: #76b900;"> CUDA </span>
 
-A sequentiel and parallel implementation of the [Dividing Cubes algorithm](https://doi.org/10.1118/1.596225) using C++ and CUDA.
+> A sequentiel and parallel implementation of the [Dividing Cubes algorithm](https://doi.org/10.1118/1.596225) using C++ and CUDA.
 
 ## Abstract
 
-3D image reconstruction has the potential to bring major advancements in science and medicine by allowing the visualization of inner living organs in their real states and forms.
+> 3D image reconstruction has the potential to bring major advancements in science and medicine by allowing the visualization of inner living organs in their real states and forms.
 Using modern modalities such as Computed Tomography (CT) and Magnetic Resonance Imaging (MRI), serial 2D images are produced and used in 3D reconstruction.
-However, the reconstruction process is very slow and very expensive in terms of compute resources due to the massive quantity of data to process resulted from the acquisition task.
+> However, the reconstruction process is very slow and very expensive in terms of compute resources due to the massive quantity of data to process resulted from the acquisition task.
 Meanwhile, Graphic Processing Unit (GPU), with its tremendous capability of parallel computing, becomes more and more popular in High Performance Computing.
-In addition, CUDA, a parallel computing platform and programming model that was invented by NVIDIA, makes GPU programming much easier and faster.
-
-In our research, we focused on the use of this power of parallel computing in order to accelerate the reconstruction process while trying to have the most accurate representation of the reconstructed object.
+> In addition, CUDA, a parallel computing platform and programming model that was invented by NVIDIA, makes GPU programming much easier and faster.
+> In our research, we focused on the use of this power of parallel computing in order to accelerate the reconstruction process while trying to have the most accurate representation of the reconstructed object.
 
 ### Keyword
 
-*3D Medical Imaging*, *Image Reconstruction*, *Dividing Cubes*, *GPU*, *CUDA*.
+> *3D Medical Imaging*, *Image Reconstruction*, *Dividing Cubes*, *GPU*, *CUDA*.
 
 ## Outputs
 
-- Skull : raw files can be found in [Datasets/Skul](Datasets\Skull).
+- Skull : raw files can be found in [Datasets/Skul](.Datasets/Skull).
 
 <p align="center">
     <img src="docs/figures/Page-67-Image-88.png">
 	<br>
 </p>
 
-- Head : raw files can be found in [Datasets/Skul](Datasets\Head).
+- Head : raw files can be found in [Datasets/Head](Datasets/Head).
 
 <p align="center">
     <img src="docs/figures/Page-68-Image-89.png">
@@ -41,7 +40,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### Data Reader Module
 
-<span style="color: yellow;">Reads raw dataset files. A raw file contains the collection of slices obtained from the aquisition step.</span>
+Reads raw dataset files. A raw file contains the collection of slices obtained from the aquisition step.
 
 <p align="center">
     <img src="docs/figures/Page-65-Image-86.png">
@@ -50,7 +49,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### Squential (Non-Parallel) Module
 
-<span style="color: yellow;">Runs DC sequential on the CPU.</span>
+Runs DC sequential on the CPU.
 
 <p align="center">
     <img src="docs/figures/Page-62-Image-84.png">
@@ -59,7 +58,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### CUDA (Parallel) Module
 
-<span style="color: yellow;">Runs DC in parallel on the GPU.</span>
+Runs DC in parallel on the GPU.
 
 <p align="center">
     <img src="docs/figures/Page-63-Image-85.png">
@@ -68,7 +67,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### Visualization Module
 
-<span style="color: yellow;">Allows you to visualize the 3D reconstructed results.</span>
+Allows you to visualize the 3D reconstructed results.
 
 <p align="center">
     <img src="docs/figures/Page-66-Image-87.png">
@@ -78,9 +77,7 @@ In our research, we focused on the use of this power of parallel computing in or
 ## Notes
 
 - Running this code requires a CUDA capable GPU (compute capability 2.2)
-- The datasets used in this project have all been obtained from [here](http://www.gris.uni-tuebingen.de/edu/areas/scivis/volren/datasets/datasets.html)
-
-<span style="color: yellow;">TODO</span>
+- The datasets (in : [Datasets](Datasets/)) used in this project have all been obtained from [here](http://www.gris.uni-tuebingen.de/edu/areas/scivis/volren/datasets/datasets.html)
 
 ## Authors
 
