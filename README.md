@@ -22,7 +22,7 @@ Meanwhile, Graphic Processing Unit (GPU), with its tremendous capability of para
 
 ## Outputs
 
-- Skull : raw files can be found in [Datasets/Skul](.Datasets/Skull).
+- Skull : raw files can be found in [Datasets/Skul](Datasets/Skull).
 
 <p align="center">
     <img src="docs/figures/Page-67-Image-88.png">
