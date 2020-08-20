@@ -49,7 +49,7 @@ Reads raw dataset files. A raw file contains the collection of slices obtained f
 
 ### Squential (Non-Parallel) Module
 
-Runs DC sequential on the CPU.
+Runs DC sequentially using one CPU core.
 
 <p align="center">
     <img src="docs/figures/Page-62-Image-84.png">
