@@ -23,14 +23,14 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ## Outputs
 
-<span style="color: yellow;">TODO</span>
+- Skull : raw files can be found in [Datasets/Skul](Datasets\Skull).
 
 <p align="center">
     <img src="docs/figures/Page-67-Image-88.png">
 	<br>
 </p>
 
-<span style="color: yellow;">TODO</span>
+- Head : raw files can be found in [Datasets/Skul](Datasets\Head).
 
 <p align="center">
     <img src="docs/figures/Page-68-Image-89.png">
@@ -41,7 +41,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### Data Reader Module
 
-<span style="color: yellow;">TODO</span>
+<span style="color: yellow;">Reads raw dataset files. A raw file contains the collection of slices obtained from the aquisition step.</span>
 
 <p align="center">
     <img src="docs/figures/Page-65-Image-86.png">
@@ -50,7 +50,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### Squential (Non-Parallel) Module
 
-<span style="color: yellow;">TODO</span>
+<span style="color: yellow;">Runs DC sequential on the CPU.</span>
 
 <p align="center">
     <img src="docs/figures/Page-62-Image-84.png">
@@ -59,7 +59,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### CUDA (Parallel) Module
 
-<span style="color: yellow;">TODO</span>
+<span style="color: yellow;">Runs DC in parallel on the GPU.</span>
 
 <p align="center">
     <img src="docs/figures/Page-63-Image-85.png">
@@ -68,7 +68,7 @@ In our research, we focused on the use of this power of parallel computing in or
 
 ### Visualization Module
 
-<span style="color: yellow;">TODO</span>
+<span style="color: yellow;">Allows you to visualize the 3D reconstructed results.</span>
 
 <p align="center">
     <img src="docs/figures/Page-66-Image-87.png">
